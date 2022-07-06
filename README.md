@@ -1,3 +1,12 @@
+Netlify deploy url : https://62c56b2fd2b1b204f2af7ae0--prismatic-malasada-3509b2.netlify.app/
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
