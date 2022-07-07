@@ -60,10 +60,10 @@ if((todos.filter(todo=>!todo.complete).length)<3){
     <h1>TodoList</h1>
     <input ref={todoNameRef} type="text"/>
     <div class="buttons">
-    <button onClick={handleAddTodo}>Add Todo </button>
-    <button onClick={handleClearTodo}>Clear completed</button>
+    <button onClick={handleAddTodo}>Ajouter une tâche</button>
+    <button onClick={handleClearTodo}>Supprimer les tâches réalisées</button>
     </div>
-    <p id="nrTodo">{todos.filter(todo=>!todo.complete).length} tasks to do </p>
+    <p id="nrTodo">{todos.filter(todo=>!todo.complete).length} tâches à completer</p>
       </div>
   <div id="list"><TodoList todos={todos} toggleTodo={toggleTodo}/></div>
     </div>
